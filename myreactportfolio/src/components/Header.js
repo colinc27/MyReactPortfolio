@@ -6,7 +6,7 @@ import Prof from "../assets/prof.jpg";
 
 const Header = () => {
   return (
-    <header>
+    <header className="sticky-top">
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container className="justify-content-between">
           <Image className="prof " src={Prof}></Image>

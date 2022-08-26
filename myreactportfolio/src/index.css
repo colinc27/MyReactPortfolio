@@ -49,3 +49,13 @@ a.github {
   height: 10vh;
   border-radius: 50%;
 }
+.projcard {
+  height: 90vh;
+}
+.cardimg {
+  height: 250px;
+}
+/* .cardbtn {
+  position: relative;
+  bottom: 0;
+} */

@@ -27,7 +27,7 @@ const projects = [
     image: "images/student.png",
     type: "software",
     description:
-      "This was a group project where we developed a working app where you can make a teacher or student login. The students take a test which evaluates their understanding of the alphabet. The teacher are taken to a dashboard where they can see their student's score. This project uses SQL, Node, JS, HTML, CSS, JS and more!",
+      "This was a group project where a student can login and gives them a test on the alphabet. The teach can login and access there scores. It uses SQL, text to speech API, Sequelize, Express, Node etc",
     gitlink: "https://github.com/tparlmer/SJDA_Alphabet_Test",
     website: "https://ancient-brook-00685.herokuapp.com/",
     images: ["", ""],
@@ -56,3 +56,4 @@ const projects = [
     images: ["", ""],
   },
 ];
+export default projects;
