@@ -69,12 +69,10 @@ function Experience() {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2" className="bg-primary">
-          <Accordion.Header>
-            Manufacturing and Production Engineer
-          </Accordion.Header>
+          <Accordion.Header>Technical Marketing Engineer</Accordion.Header>
           <Accordion.Body>
             <ol class="text-left">
-              <h6>September 2018 - November 2020</h6>
+              <h6> Wieland Metals| June 2018 - September 2018</h6>
               <li>
                 Provided technical expertise to customers looking to design a
                 new product
@@ -83,7 +81,6 @@ function Experience() {
                 Wrote documents and created presentations sharing technical
                 details of products, technologies and solutions.
               </li>
-              <li>Created engineering drawings for new customer products</li>
               <li>Created engineering drawings for new customer products</li>
             </ol>
           </Accordion.Body>

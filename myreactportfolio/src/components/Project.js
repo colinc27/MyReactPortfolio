@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 
 const Project = ({ projects }) => {
   return (
@@ -10,23 +10,21 @@ const Project = ({ projects }) => {
           <strong className="text-primary">{projects.name}</strong>
         </Card.Title>
         <Card.Text>{projects.description}</Card.Text>
-        <Row className="cardbtn position-static bottom-0">
-          <Col>
-            <Button className="btn-success" href={projects.gitlink}>
-              Github
+        <div className="d-grid gap-2">
+          <Button variant="success" size="lg" href={projects.gitlink}>
+            Github
+          </Button>
+          {projects.website === "" && (
+            <Button disabled variant="danger" size="lg">
+              No Website Available
             </Button>
-          </Col>
-          <Col>
-            {projects.website === "" && (
-              <h5 className="text-center text-danger">No Website Available</h5>
-            )}
-            {projects.website !== "" && (
-              <Button className="btn-warning" href={projects.website}>
-                Website
-              </Button>
-            )}
-          </Col>
-        </Row>
+          )}
+          {projects.website !== "" && (
+            <Button variant="danger" size="lg" href={projects.website}>
+              Website
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
