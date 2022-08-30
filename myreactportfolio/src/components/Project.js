@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Button, Card, Col, Row } from "react-bootstrap";
 
 const Project = ({ projects }) => {
@@ -7,11 +6,9 @@ const Project = ({ projects }) => {
     <Card fluid className="my-3 p-3 rounded justify-content-center projcard">
       <Card.Img className="cardimg" src={projects.image} variant="top" />
       <Card.Body>
-        <Link to={`/projects/${projects._id}`}>
-          <Card.Title as="div">
-            <strong>{projects.name}</strong>
-          </Card.Title>
-        </Link>
+        <Card.Title as="div">
+          <strong className="text-primary">{projects.name}</strong>
+        </Card.Title>
         <Card.Text>{projects.description}</Card.Text>
         <Row className="cardbtn position-static bottom-0">
           <Col>
@@ -24,7 +21,7 @@ const Project = ({ projects }) => {
               <h5 className="text-center text-danger">No Website Available</h5>
             )}
             {projects.website !== "" && (
-              <Button className="btn-success" href={projects.website}>
+              <Button className="btn-warning" href={projects.website}>
                 Website
               </Button>
             )}
