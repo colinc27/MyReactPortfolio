@@ -11,22 +11,24 @@ const Header = () => {
         <Container className="justify-content-between">
           <Image className="prof " src={Prof}></Image>
           <LinkContainer className="m-auto p-2" to="/cjcreactportfolio">
-            <Navbar.Brand href="/">Colin Christoph's Portfolio</Navbar.Brand>
+            <Navbar.Brand href="/MyReactPortfolio/">
+              Colin Christoph's Portfolio
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <LinkContainer to="/projects">
+              <LinkContainer to="/MyReactPortfolio/projects">
                 <Nav.Link>
                   <i className="fa-solid fa-diagram-project px-1"></i>Projects
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/experience">
+              <LinkContainer to="/MyReactPortfolio/experience">
                 <Nav.Link>
                   <i className="fa-solid fa-book px-1"></i>Experience and Skills
                 </Nav.Link>
               </LinkContainer>
-              {/* <LinkContainer to="/contact">
+              {/* <LinkContainer to="/MyReactPortfolio/contact">
                 <Nav.Link>
                   <i className="fas fa-user px-1"></i>Contact Me
                 </Nav.Link>

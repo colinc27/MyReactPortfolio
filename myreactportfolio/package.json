@@ -1,7 +1,7 @@
 {
   "name": "myreactportfolio",
   "version": "0.1.0",
-  "homepage": "https://colinc27.github.io/cjcreactportfolio",
+  "homepage": "https://colinc27.github.io/MyReactPortfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

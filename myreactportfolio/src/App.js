@@ -15,10 +15,16 @@ const App = () => {
       <main className="py-3">
         <Container>
           <Routes>
-            <Route path="/cjcreactportfolio" element={<HomeScreen />} />
-            <Route path="/projects" element={<ProjectScreen />} />
-            <Route path="/experience" element={<ExperienceScreen />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/MyReactPortfolio/" element={<HomeScreen />} />
+            <Route
+              path="/MyReactPortfolio/projects"
+              element={<ProjectScreen />}
+            />
+            <Route
+              path="/MyReactPortfolio/experience"
+              element={<ExperienceScreen />}
+            />
+            <Route path="MyReactPortfolio/contact" element={<Contact />} />
           </Routes>
         </Container>
       </main>
