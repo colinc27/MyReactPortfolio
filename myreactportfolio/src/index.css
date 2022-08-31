@@ -43,6 +43,9 @@ a.instagram {
 a.github {
   color: gray;
 }
+a.atsign {
+  color: red;
+}
 /* Social End */
 
 .prof {
@@ -55,6 +58,7 @@ a.github {
 .cardimg {
   height: 250px;
 }
+
 /* .cardbtn {
   position: relative;
   bottom: 0;

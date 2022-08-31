@@ -26,11 +26,11 @@ const Header = () => {
                   <i className="fa-solid fa-book px-1"></i>Experience and Skills
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/contact">
+              {/* <LinkContainer to="/contact">
                 <Nav.Link>
                   <i className="fas fa-user px-1"></i>Contact Me
                 </Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

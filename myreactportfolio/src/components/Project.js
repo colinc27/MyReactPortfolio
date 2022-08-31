@@ -11,16 +11,16 @@ const Project = ({ projects }) => {
         </Card.Title>
         <Card.Text>{projects.description}</Card.Text>
         <div className="d-grid gap-2">
-          <Button variant="success" size="lg" href={projects.gitlink}>
+          <Button variant="success" href={projects.gitlink}>
             Github
           </Button>
           {projects.website === "" && (
-            <Button disabled variant="danger" size="lg">
+            <Button disabled variant="danger">
               No Website Available
             </Button>
           )}
           {projects.website !== "" && (
-            <Button variant="danger" size="lg" href={projects.website}>
+            <Button variant="danger" href={projects.website}>
               Website
             </Button>
           )}
