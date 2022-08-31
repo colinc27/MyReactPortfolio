@@ -41,5 +41,35 @@ const skill = [
     type: "software",
     yearsExp: 1,
   },
+  {
+    name: "CAD",
+    svg: "fa-solid fa-compass-drafting px-2",
+    type: "engineering",
+    yearsExp: 8,
+  },
+  {
+    name: "3D Printing",
+    svg: "fa-solid fa-print px-2",
+    type: "engineering",
+    yearsExp: 4,
+  },
+  {
+    name: "CAM",
+    svg: "fa-solid fa-industry px-2",
+    type: "engineering",
+    yearsExp: 3,
+  },
+  {
+    name: "Business Communications/Sales",
+    svg: "fa-solid fa-comments px-2",
+    type: "general",
+    yearsExp: 2,
+  },
+  {
+    name: "Microsoft Office",
+    svg: "fa-brands fa-windows px-2",
+    type: "general",
+    yearsExp: 8,
+  },
 ];
 export default skill;

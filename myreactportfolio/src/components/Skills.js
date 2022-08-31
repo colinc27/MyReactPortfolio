@@ -61,10 +61,10 @@ const Experience = () => {
                             <Col xs lg="8" md="auto">
                               <ProgressBar
                                 className=""
-                                label={`${skill.yearsExp} Year exp.`}
+                                label={`${skill.yearsExp} Years exp.`}
                                 now={skill.yearsExp}
                                 min={0}
-                                max={3}
+                                max={8}
                               />
                             </Col>
                           </Row>
@@ -96,10 +96,10 @@ const Experience = () => {
                             <Col xs lg="8" md="auto">
                               <ProgressBar
                                 className=""
-                                label={`${skill.yearsExp} Year exp.`}
+                                label={`${skill.yearsExp} Years exp.`}
                                 now={skill.yearsExp}
                                 min={0}
-                                max={3}
+                                max={7}
                               />
                             </Col>
                           </Row>
