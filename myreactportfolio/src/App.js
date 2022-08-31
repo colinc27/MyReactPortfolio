@@ -15,7 +15,7 @@ const App = () => {
       <main className="py-3">
         <Container>
           <Routes>
-            <Route path="/" element={<HomeScreen />} />
+            <Route path="/cjcreactportfolio" element={<HomeScreen />} />
             <Route path="/projects" element={<ProjectScreen />} />
             <Route path="/experience" element={<ExperienceScreen />} />
             <Route path="/contact" element={<Contact />} />

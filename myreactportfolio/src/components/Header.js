@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container className="justify-content-between">
           <Image className="prof " src={Prof}></Image>
-          <LinkContainer className="m-auto p-2" to="/">
+          <LinkContainer className="m-auto p-2" to="/cjcreactportfolio">
             <Navbar.Brand href="/">Colin Christoph's Portfolio</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
