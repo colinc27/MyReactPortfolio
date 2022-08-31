@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container className="justify-content-between">
           <Image className="prof " src={Prof}></Image>
-          <LinkContainer className="m-auto p-2" to="/cjcreactportfolio">
+          <LinkContainer className="m-auto p-2" to="/MyReactPortfolio/">
             <Navbar.Brand href="/MyReactPortfolio/">
               Colin Christoph's Portfolio
             </Navbar.Brand>

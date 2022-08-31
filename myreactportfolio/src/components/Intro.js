@@ -24,7 +24,7 @@ const Intro = () => {
           graduated Magna Cumme Laude with a GPA of 3.66. After being an
           engineer for a couple years, I decided to move away from Illinois to
           AZ and began a job at rocket mortgage where I developed my
-          communication skills deeply. During my time at rocket mortgage, I
+          communication skills deeply. During my time at Rocket Mortgage, I
           studied and graduated at Michigan State University with a coding
           bootcamp certificate in the MERN tech stack. I am now pursuing a
           career in software development.
