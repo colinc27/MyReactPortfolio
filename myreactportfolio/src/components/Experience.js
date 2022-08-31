@@ -4,7 +4,7 @@ function Experience() {
   return (
     <>
       <h2>Experience</h2>
-      <Accordion defaultActiveKey={["0"]} alwaysOpen>
+      <Accordion>
         <Accordion.Item eventKey="0" className="bg-primary">
           <Accordion.Header>
             Presidents Club Closing Specialist
