@@ -26,10 +26,14 @@ const Experience = () => {
                             <Col xs lg="8" md="auto">
                               <ProgressBar
                                 className=""
-                                label={`${skill.yearsExp} Year exp.`}
-                                now={skill.yearsExp}
+                                label={`${skill.exp}`}
+                                now={
+                                  (skill.exp === "Novice" && 1) ||
+                                  (skill.exp === "Intermediate" && 2) ||
+                                  (skill.exp === "Expert" && 3)
+                                }
                                 min={0}
-                                max={3}
+                                max={4}
                               />
                             </Col>
                           </Row>
@@ -61,10 +65,14 @@ const Experience = () => {
                             <Col xs lg="8" md="auto">
                               <ProgressBar
                                 className=""
-                                label={`${skill.yearsExp} Years exp.`}
-                                now={skill.yearsExp}
+                                label={`${skill.exp}`}
+                                now={
+                                  (skill.exp === "Novice" && 1) ||
+                                  (skill.exp === "Intermediate" && 2) ||
+                                  (skill.exp === "Expert" && 3)
+                                }
                                 min={0}
-                                max={8}
+                                max={4}
                               />
                             </Col>
                           </Row>
@@ -96,10 +104,14 @@ const Experience = () => {
                             <Col xs lg="8" md="auto">
                               <ProgressBar
                                 className=""
-                                label={`${skill.yearsExp} Years exp.`}
-                                now={skill.yearsExp}
+                                label={`${skill.exp}`}
+                                now={
+                                  (skill.exp === "Novice" && 1) ||
+                                  (skill.exp === "Intermediate" && 2) ||
+                                  (skill.exp === "Expert" && 3)
+                                }
                                 min={0}
-                                max={7}
+                                max={4}
                               />
                             </Col>
                           </Row>
