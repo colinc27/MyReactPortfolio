@@ -1,6 +1,15 @@
 const projects = [
   {
-    _id: "1",
+    name: "Proshop E-commerce",
+    image: "images/proshop.png",
+    type: "software",
+    description:
+      "In this project I am creating an E-commerce website. It uses the MERN tech stack. It will have a login/logout, cart and checkout screens and much more. I plan on having this finished in two weeks or less",
+    gitlink: "https://github.com/colinc27/E-commerceCourse",
+    website: "",
+    images: ["", ""],
+  },
+  {
     name: "Billion Dollar Budget App",
     image: "images/budge.png",
     type: "software",
@@ -11,7 +20,6 @@ const projects = [
     images: ["", ""],
   },
   {
-    _id: "2",
     name: "Stock/Crypto Watcher",
     image: "images/stock.png",
     type: "software",
@@ -22,7 +30,6 @@ const projects = [
     images: ["", ""],
   },
   {
-    _id: "3",
     name: "Alphabet Testing for first graders",
     image: "images/student.png",
     type: "software",
@@ -33,7 +40,6 @@ const projects = [
     images: ["", ""],
   },
   {
-    _id: "4",
     name: "Note Taking Application",
     image: "images/note.png",
     type: "software",
@@ -44,7 +50,6 @@ const projects = [
     images: ["", ""],
   },
   {
-    _id: "5",
     name: "README Generator",
     image: "images/read.png",
     type: "software",
