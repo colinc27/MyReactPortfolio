@@ -30,7 +30,8 @@ const Experience = () => {
                                 now={
                                   (skill.exp === "Novice" && 1) ||
                                   (skill.exp === "Intermediate" && 2) ||
-                                  (skill.exp === "Expert" && 3)
+                                  (skill.exp === "Expert" && 3) ||
+                                  (skill.exp === "Master" && 4)
                                 }
                                 min={0}
                                 max={4}
@@ -69,7 +70,8 @@ const Experience = () => {
                                 now={
                                   (skill.exp === "Novice" && 1) ||
                                   (skill.exp === "Intermediate" && 2) ||
-                                  (skill.exp === "Expert" && 3)
+                                  (skill.exp === "Expert" && 3) ||
+                                  (skill.exp === "Master" && 4)
                                 }
                                 min={0}
                                 max={4}
@@ -108,7 +110,8 @@ const Experience = () => {
                                 now={
                                   (skill.exp === "Novice" && 1) ||
                                   (skill.exp === "Intermediate" && 2) ||
-                                  (skill.exp === "Expert" && 3)
+                                  (skill.exp === "Expert" && 3) ||
+                                  (skill.exp === "Master" && 4)
                                 }
                                 min={0}
                                 max={4}

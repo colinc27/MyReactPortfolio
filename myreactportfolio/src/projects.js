@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: "Bella Sleep Mattress Landing Page",
+    image: "images/bella.png",
+    type: "software",
+    description:
+      "This is a fuly developed landing website for my friend's father's mattress store. I built this with react and used email JS to send the forms. It also uses google analytics. ",
+    gitlink: "https://github.com/colinc27/MannysMatresses",
+    website: "https://www.bellasleepinc.com/",
+    images: ["", ""],
+  },
+  {
     name: "Proshop E-commerce",
     image: "images/proshop.png",
     type: "software",

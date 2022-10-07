@@ -54,22 +54,40 @@ const skill = [
     exp: "Expert",
   },
   {
+    name: "GD&T",
+    svg: "fa-solid fa-ruler px-2",
+    type: "engineering",
+    exp: "Expert",
+  },
+  {
     name: "CAM",
     svg: "fa-solid fa-industry px-2",
     type: "engineering",
     exp: "Intermediate",
   },
   {
-    name: "Business Communications",
+    name: "Communication",
     svg: "fa-solid fa-comments px-2",
     type: "general",
-    exp: "Intermediate",
+    exp: "Expert",
   },
   {
     name: "Microsoft Office",
     svg: "fa-brands fa-windows px-2",
     type: "general",
     exp: "Expert",
+  },
+  {
+    name: "Problem Solving",
+    svg: "fa-solid fa-calculator px-2",
+    type: "general",
+    exp: "Master",
+  },
+  {
+    name: "Golf",
+    svg: "fa-solid fa-golf-ball-tee px-2",
+    type: "general",
+    exp: "Intermediate",
   },
 ];
 export default skill;
