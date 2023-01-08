@@ -6,6 +6,32 @@ function Experience() {
       <h2>Experience</h2>
       <Accordion>
         <Accordion.Item eventKey="0" className="bg-primary">
+          <Accordion.Header>Product Engineer</Accordion.Header>
+          <Accordion.Body>
+            <ol class="text-left">
+              <h6> Verigon | July 2022 - Current</h6>
+              <li>
+                Gained valuable electronics and PCBA experience. Trained in
+                IPC-A-610
+              </li>
+              <li>
+                Developed MERN stack web app that gave the user a better look at
+                each assembly so that information was not being passed along via
+                spreadsheets and word docs.
+              </li>
+              <li>
+                Evaluated customer drawings, manufacturing documents to create
+                assembly job travelers and manufacturing methods.
+              </li>
+              <li>
+                Designed and built several different fixtures to help with
+                manufacturing and assembly of different products
+              </li>
+              <li></li>
+            </ol>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1" className="bg-primary">
           <Accordion.Header>
             Presidents Club Closing Specialist
           </Accordion.Header>
@@ -36,7 +62,7 @@ function Experience() {
             </ol>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1" className="bg-primary">
+        <Accordion.Item eventKey="2" className="bg-primary">
           <Accordion.Header>
             Manufacturing / Production Engineer
           </Accordion.Header>
@@ -68,11 +94,11 @@ function Experience() {
             </ol>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2" className="bg-primary">
+        <Accordion.Item eventKey="3" className="bg-primary">
           <Accordion.Header>Technical Marketing Engineer</Accordion.Header>
           <Accordion.Body>
             <ol class="text-left">
-              <h6> Wieland Metals| June 2018 - September 2018</h6>
+              <h6> Wieland Metals | June 2018 - September 2018</h6>
               <li>
                 Provided technical expertise to customers looking to design a
                 new product
